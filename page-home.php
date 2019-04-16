@@ -20,32 +20,6 @@ get_header();
 
     <div class="entire-content">
 
-        <header>
-
-            <div class="container">
-
-                <div class="row">
-                    <a href="#" class="logo animation" data-animation="fadeInLeft"><img src="<?php echo get_template_directory_uri(); ?>/resources/img/logo.png" alt="logo"></a>
-
-                    <nav class="animation" data-animation="fadeInRight">
-                        <ul class="menu" id="menu">
-                            <li><a href="#slider">Home</a></li>
-                            <li><a href="#services">Services</a></li>
-                            <li><a href="#portfolio">Our Work</a></li>
-                            <li><a href="#team">Team</a></li>
-                            <li><a href="#testimonials">Testimonials</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
-                    </nav><!-- end nav -->
-
-                    <div class="clearfix"></div>
-
-                </div><!--end row  -->
-
-            </div> <!-- end container -->
-
-        </header> <!-- End header -->
-
         <!-- Slider Section -->
         <section class="slider" id="slider">
             <ul class="slider-carousel" id="slider-carousel">
@@ -534,57 +508,6 @@ get_header();
             </form>
 
         </section><!-- End contact section -->
-
-        <!-- Footer section -->
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="animation" data-animation="fadeInLeft">
-                        <div class="col-md-4">
-                            <h1>About Corporate</h1>
-                            <p class="about">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
-                            <p><i class="fa fa-envelope"></i><span class="contact-email">corporate@email.com</span></p>
-                            <p><i class="fa fa-mobile"></i><span class="contact-mobile">+414 777 444</span></p>
-                            <p><i class="fa fa-location-arrow"></i><span class="contact-location">69 , New York City , New York</span></p>
-                        </div>
-                    </div>
-
-                    <div class="animation" data-animation="fadeInLeft">
-                        <div class="col-md-4">
-                            <h1>Get Blog Updates</h1>
-                            <form class="update-form">
-                                <fieldset>
-                                    <input type="text" id="take-email" placeholder="Enter your email here">
-                                </fieldset>
-
-                                <fieldset>
-                                    <input type="submit" id="submit-button" value="Sign Up">
-                                </fieldset>
-                            </form>
-                        </div>
-                    </div>
-
-                    <div class="animation" data-animation="fadeInLeft">
-                        <div class="col-md-4">
-                            <h1>Stay In Touch</h1>
-                            <ul class="footer-social-links">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="copyright">
-                <p>Copyright &copy;<span class="primary">Corporate</span> 2015 . All Rights Reserved.</p>
-            </div>
-
-        </footer>
 
     </div><!-- entire content -->
 
