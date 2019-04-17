@@ -33,7 +33,7 @@
                 <a href="#" class="primary-bg cta1"><?php echo $btn_cta1; ?></a>
                 <a href="#" class="secondary-sky-blue-bg cta2"><?php echo $btn_cta2; ?></a>
             </li>
-        <?php endwhile; ?>
+        <?php endwhile; wp_reset_query(); ?>
     </ul>
     <ul class="sliderpager">
         <li><a href="#"><i class="fa fa-circle"></i></a></li>
