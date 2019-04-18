@@ -14,6 +14,8 @@
  * @package parallax
  */
 
+
+
 get_header();
 ?>
 
@@ -33,157 +35,8 @@ get_header();
         <!-- # portfolio -->
 
         <!-- Team Section -->
-        <section class="team section-padding" id="team">
-            <div class="animation" data-animation="fadeIn">
-                <div class="team-header">
-                    <h1>Our Team</h1>
-                    <p>It is a long established fact that a reader will be distracted by <br> the readable content of a
-                        page when looking at its layout</p>
-                </div><!-- End portfolio header -->
-            </div>
-
-            <div class="container">
-                <div class="row">
-                    <div class="animation" data-animation="zoomIn">
-                        <ul class="team-carousel">
-                            <li>
-                                <div class="inner-content">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/resources/img/member1.png" alt="project1" />
-                                    <div class="overlay-content white">
-                                        <p class="name primary bold">John Doe</p>
-                                        <p class="position secondary-sky-blue bold">Web Developer</p>
-                                        <p class="description">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-                                        <ul class="member-social-links">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="inner-content">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/resources/img/member2.png" alt="project1" />
-                                    <div class="overlay-content white">
-                                        <p class="name primary bold">John Doe</p>
-                                        <p class="position secondary-sky-blue bold">Web Developer</p>
-                                        <p class="description">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-                                        <ul class="member-social-links">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="inner-content">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/resources/img/member3.png" alt="project1" />
-                                    <div class="overlay-content white">
-                                        <p class="name primary bold">John Doe</p>
-                                        <p class="position secondary-sky-blue bold">Web Developer</p>
-                                        <p class="description">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-                                        <ul class="member-social-links">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="inner-content">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/resources/img/member4.png" alt="project1" />
-                                    <div class="overlay-content white">
-                                        <p class="name primary bold">John Doe</p>
-                                        <p class="position secondary-sky-blue bold">Web Developer</p>
-                                        <p class="description">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-                                        <ul class="member-social-links">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="inner-content">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/resources/img/member2.png" alt="project1" />
-                                    <div class="overlay-content white">
-                                        <p class="name primary bold">John Doe</p>
-                                        <p class="position secondary-sky-blue bold">Web Developer</p>
-                                        <p class="description">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-                                        <ul class="member-social-links">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="inner-content">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/resources/img/member3.png" alt="project1" />
-                                    <div class="overlay-content white">
-                                        <p class="name primary bold">John Doe</p>
-                                        <p class="position secondary-sky-blue bold">Web Developer</p>
-                                        <p class="description">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-                                        <ul class="member-social-links">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="inner-content">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/resources/img/member4.png" alt="project1" />
-                                    <div class="overlay-content white">
-                                        <p class="name primary bold">John Doe</p>
-                                        <p class="position secondary-sky-blue bold">Web Developer</p>
-                                        <p class="description">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-                                        <ul class="member-social-links">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="inner-content">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/resources/img/member2.png" alt="project1" />
-                                    <div class="overlay-content white">
-                                        <p class="name primary bold">John Doe</p>
-                                        <p class="position secondary-sky-blue bold">Web Developer</p>
-                                        <p class="description">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-                                        <ul class="member-social-links">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-
-                        <ul class="team-nav">
-                            <li id="team-prev" style="display:inline-block;">&lt;</li>
-                            <li id="team-next" style="display:inline-block;">&gt;</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-        </section><!-- end team section -->
+            <?php get_template_part('template-parts/content', 'teams'); ?>
+        <!-- # team section -->
 
         <!-- Testimonials Section -->
         <section class="testimonials section-padding center animation" data-stellar-background-ratio="0.5" data-animation="fadeInUp" id="testimonials">
