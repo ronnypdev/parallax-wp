@@ -29,116 +29,16 @@ get_header();
         <!-- # Services -->
 
         <!-- Portfolio Section -->
-        <section class="portfolio section-padding" data-stellar-background-ratio="0.5" id="portfolio">
-
-            <div class="animation" data-animation="fadeIn">
-                <div class="portfolio-header">
-                    <h1 class="white">Our Work</h1>
-                    <p>It is a long established fact that a reader will be distracted by <br> the readable content of a page when looking at its layout</p>
-                </div><!-- End portfolio header -->
-            </div>
-
-            <div class="container">
-                <div class="row">
-                    <div class="animation" data-animation="fadeInUp">
-                        <ul class="portfolio-carousel">
-                            <li>
-                                <div class="inner-content">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/resources/img/project1.png" alt="project1" />
-                                    <div class="overlay-content">
-                                        <h3>Enviroment Website</h3>
-                                        <p><a href="#">Click here</a> for details </p>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="inner-content">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/resources/img/project2.png" alt="project1" />
-                                    <div class="overlay-content">
-                                        <h3>Enviroment Website</h3>
-                                        <p><a href="#">Click here</a> for details </p>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="inner-content">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/resources/img/project3.png" alt="project1" />
-                                    <div class="overlay-content">
-                                        <h3>Enviroment Website</h3>
-                                        <p><a href="#">Click here</a> for details </p>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="inner-content">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/resources/img/project4.png" alt="project1" />
-                                    <div class="overlay-content">
-                                        <h3>Enviroment Website</h3>
-                                        <p><a href="#">Click here</a> for details </p>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="inner-content">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/resources/img/project2.png" alt="project1" />
-                                    <div class="overlay-content">
-                                        <h3>Enviroment Website</h3>
-                                        <p><a href="#">Click here</a> for details </p>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="inner-content">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/resources/img/project3.png" alt="project1" />
-                                    <div class="overlay-content">
-                                        <h3>Enviroment Website</h3>
-                                        <p><a href="#">Click here</a> for details </p>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="inner-content">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/resources/img/project4.png" alt="project1" />
-                                    <div class="overlay-content">
-                                        <h3>Enviroment Website</h3>
-                                        <p><a href="#">Click here</a> for details </p>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="inner-content">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/resources/img/project2.png" alt="project1" />
-                                    <div class="overlay-content">
-                                        <h3>Enviroment Website</h3>
-                                        <p><a href="#">Click here</a> for details </p>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-
-                        <ul class="portfolio-nav">
-                            <li id="prev" style="display:inline-block;">&lt;</li>
-                            <li id="next" style="display:inline-block;">&gt;</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-        </section><!-- End portfolio -->
+            <?php get_template_part('template-parts/content', 'portfolio'); ?>
+        <!-- # portfolio -->
 
         <!-- Team Section -->
         <section class="team section-padding" id="team">
             <div class="animation" data-animation="fadeIn">
                 <div class="team-header">
                     <h1>Our Team</h1>
-                    <p>It is a long established fact that a reader will be distracted by <br> the readable content of a page when looking at its layout</p>
+                    <p>It is a long established fact that a reader will be distracted by <br> the readable content of a
+                        page when looking at its layout</p>
                 </div><!-- End portfolio header -->
             </div>
 
