@@ -39,51 +39,8 @@ get_header();
         <!-- # team section -->
 
         <!-- Testimonials Section -->
-        <section class="testimonials section-padding center animation" data-stellar-background-ratio="0.5" data-animation="fadeInUp" id="testimonials">
-            <div class="testimonials-header">
-                <h1 class="white">Client Testimonials</h1>
-                <p>It is a long established fact that a reader will be distracted by <br> the readable content of a page when looking at its layout</p>
-            </div>
-            <ul class="testimonials-carousel">
-                <li>
-                    <img src="<?php echo get_template_directory_uri(); ?>/resources/img/member3.png" alt="member">
-                    <p class="name">John Doe</p>
-                    <p class="position">Web Designer</p>
-                    <blockquote>
-                        <i>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content
-                            here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use
-                            Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy</i>
-                    </blockquote>
-                </li>
-                <li>
-                    <img src="<?php echo get_template_directory_uri(); ?>/resources/img/member2.png"/>
-                    <p class="name">Christina</p>
-                    <p class="position">Web Developer</p>
-                    <blockquote>
-                        <i>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content
-                            here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use
-                            Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy</i>
-                    </blockquote>
-                </li>
-                <li>
-                    <img src="<?php echo get_template_directory_uri(); ?>/resources/img/member4.png"/>
-                    <p class="name">Alex</p>
-                    <p class="position">Web Designer</p>
-                    <blockquote>
-                        <i>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content
-                            here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use
-                            Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy</i>
-                    </blockquote>
-                </li>
-            </ul>
-
-            <ul class="testipager">
-                <li><a href="#"><i class="fa fa-circle"></i></a>
-                </li><li><a href="#"><i class="fa fa-circle"></i></a>
-                </li><li><a href="#"><i class="fa fa-circle"></i></a>
-                </li>
-            </ul>
-        </section>
+            <?php get_template_part('template-parts/content', 'testimonials'); ?>
+        <!-- # Testimonials Section -->
 
         <!-- Blog Section -->
         <section class="section-padding blog">
