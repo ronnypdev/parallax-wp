@@ -13,10 +13,6 @@
  *
  * @package parallax
  */
-
-$blog_heading = get_field('blog_heading');
-$blog_description = get_field('blog_description');
-
 get_header();
 ?>
 
@@ -44,43 +40,8 @@ get_header();
         <!-- # Testimonials Section -->
 
         <!-- Blog Section -->
-        <section class="section-padding blog">
-            <div class="animation" data-animation="fadeIn">
-                <div class="blog-header center">
-                    <h1><?php echo $blog_heading; ?></h1>
-                    <p><?php echo $blog_description; ?></p>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="animation" data-animation="fadeInLeft">
-                        <div class="col-md-4">
-                            <img src="<?php echo get_template_directory_uri(); ?>/resources/img/post1.png" alt="post1" class="img-responsive">
-                            <h3><a href="#" class="secondary-sky-blue">Water Flowing</a></h3>
-                            <p class="post-description"><i>by</i> <b><span class="primary">John</span></b> <i>on</i> <b class="date">12 Dec 2015</b></p>
-                            <p class="post-content">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages </p>
-                        </div>
-                    </div>
-
-                    <div class="animation" data-animation="fadeInLeft">
-                        <div class="col-md-4">
-                            <img src="<?php echo get_template_directory_uri(); ?>/resources/img/post2.png" alt="post1" class="img-responsive">
-                            <h3><a href="#" class="secondary-sky-blue">Awesome City</a></h3>
-                            <p class="post-description"><i>by</i> <b><span class="primary">Alex</span></b> <i>on</i> <b class="date">12 Dec 2015</b></p>
-                            <p class="post-content">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages </p>
-                        </div>
-                    </div>
-                    <div class="animation" data-animation="fadeInLeft">
-                        <div class="col-md-4">
-                            <img src="<?php echo get_template_directory_uri(); ?>/resources/img/post3.png" alt="post1" class="img-responsive">
-                            <h3><a href="#" class="secondary-sky-blue">Beautiful Sky</a></h3>
-                            <p class="post-description"><i>by</i> <b><span class="primary">John</span></b> <i>on</i> <b class="date">12 Dec 2015</b></p>
-                            <p class="post-content">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><!-- End testimonial section -->
+            <?php get_template_part('template-parts/content', 'recentblogs'); ?>
+       <!-- # Blog section -->
 
         <!-- Contact Section -->
         <section class="section-padding contact" data-stellar-background-ratio="0.5" id="contact">
