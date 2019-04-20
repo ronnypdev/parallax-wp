@@ -41,7 +41,7 @@ $blog_description = get_field('blog_description');
                         <p class="post-content"><?php echo $article_content; ?></p>
                     </div>
                 </div>
-            <?php endwhile;?>
+            <?php endwhile; wp_reset_query(); ?>
         </div>
     </div>
 </section><!-- End testimonial section -->
