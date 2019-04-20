@@ -9,6 +9,18 @@
  * @package parallax
  */
 
+
+$footer_heading_1 = get_field('footer_heading_1');
+$footer_heading_2 = get_field('footer_heading_2');
+$footer_heading_3 = get_field('footer_heading_3');
+
+
+$footer_about = get_field('footer_about');
+$footer_email = get_field('footer_email');
+$footer_number = get_field('footer_number');
+$footer_address = get_field('footer_address');
+$footer_copyright = get_field('footer_copyright');
+
 ?>
 
 	</div><!-- #content -->
@@ -19,17 +31,17 @@
         <div class="row">
             <div class="animation" data-animation="fadeInLeft">
                 <div class="col-md-4">
-                    <h1>About Corporate</h1>
-                    <p class="about">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
-                    <p><i class="fa fa-envelope"></i><span class="contact-email">corporate@email.com</span></p>
-                    <p><i class="fa fa-mobile"></i><span class="contact-mobile">+414 777 444</span></p>
-                    <p><i class="fa fa-location-arrow"></i><span class="contact-location">69 , New York City , New York</span></p>
+                    <h1><?php echo $footer_heading_1; ?></h1>
+                    <p class="about"><?php echo $footer_about; ?></p>
+                    <p><i class="fa fa-envelope"></i><span class="contact-email"><?php echo $footer_email; ?></span></p>
+                    <p><i class="fa fa-mobile"></i><span class="contact-mobile"><?php echo $footer_number; ?></span></p>
+                    <p><i class="fa fa-location-arrow"></i><span class="contact-location"><?php echo $footer_address; ?></span></p>
                 </div>
             </div>
 
             <div class="animation" data-animation="fadeInLeft">
                 <div class="col-md-4">
-                    <h1>Get Blog Updates</h1>
+                    <h1><?php echo $footer_heading_2; ?></h1>
                     <form class="update-form">
                         <fieldset>
                             <input type="text" id="take-email" placeholder="Enter your email here">
@@ -44,7 +56,7 @@
 
             <div class="animation" data-animation="fadeInLeft">
                 <div class="col-md-4">
-                    <h1>Stay In Touch</h1>
+                    <h1><?php echo $footer_heading_3; ?></h1>
                     <ul class="footer-social-links">
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -59,7 +71,7 @@
     </div>
 
     <div class="copyright">
-        <p>Copyright &copy;<span class="primary">Corporate</span> <?php the_time('Y'); ?> . All Rights Reserved.</p>
+        <p><?php echo $footer_copyright; ?><?php the_time('Y'); ?></p>
     </div>
 
 </footer><!-- # Footer section -->
