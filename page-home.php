@@ -14,7 +14,8 @@
  * @package parallax
  */
 
-
+$blog_heading = get_field('blog_heading');
+$blog_description = get_field('blog_description');
 
 get_header();
 ?>
@@ -46,8 +47,8 @@ get_header();
         <section class="section-padding blog">
             <div class="animation" data-animation="fadeIn">
                 <div class="blog-header center">
-                    <h1>Recent Posts from Blog</h1>
-                    <p>It is a long established fact that a reader will be distracted by <br> the readable content of a page when looking at its layout</p>
+                    <h1><?php echo $blog_heading; ?></h1>
+                    <p><?php echo $blog_description; ?></p>
                 </div>
             </div>
             <div class="container">
