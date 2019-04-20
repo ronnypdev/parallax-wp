@@ -44,33 +44,10 @@ get_header();
        <!-- # Blog section -->
 
         <!-- Contact Section -->
-        <section class="section-padding contact" data-stellar-background-ratio="0.5" id="contact">
-            <div class="contact-header center">
-                <h1 class="white">Contact Us</h1>
-                <p>It is a long established fact that a reader will be distracted by <br> the readable content of a page when looking at its layout</p>
-            </div>
+            <?php get_template_part('template-parts/content', 'contactform'); ?>
+        <!-- # contact section -->
 
-            <form class="contact-form animation" data-animation="zoomIn">
-                <fieldset>
-                    <input type="text" id="name" placeholder="Name">
-                </fieldset>
-                <fieldset>
-                    <input type="email" id="email" placeholder="Email">
-                </fieldset>
-                <fieldset>
-                    <input type="text" id="subject" placeholder="Subject">
-                </fieldset>
-                <fieldset>
-                    <textarea rows="7" cols="30" placeholder="message"></textarea>
-                </fieldset>
-                <fieldset>
-                    <input type="submit" id="submit" value="Submit">
-                </fieldset>
-            </form>
-
-        </section><!-- End contact section -->
-
-    </div><!-- entire content -->
+    </div><!-- # content -->
 
 
 
